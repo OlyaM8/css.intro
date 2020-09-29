@@ -1,0 +1,33 @@
+h1, h2, p {
+    margin:0;
+    border:0;
+}
+
+h1 {
+    color:red;
+}
+
+p {
+    background-color:yellow
+}
+
+#chosen {
+    text-decoration: underline;
+}
+
+.border {
+    border: 1px solid brown;
+}
+
+div p {
+    font-weight: bold
+}
+h1:hover,
+p:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size:2rem;
+}
+
